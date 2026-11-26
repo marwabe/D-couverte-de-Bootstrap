@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiche patient – TP Bootstrap</title>
+  <!-- ÉTAPE 1 : CSS de Bootstrap (CDN officiel, version 5.3.9) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- ÉTAPE 2 : navbar (en Bootstrap 5.3, le thème sombre se règle avec data-bs-theme="dark") -->
+  <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Dossier patient</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Afficher ou masquer le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="#identite">Identité</a></li>
+          <li class="nav-item"><a class="nav-link" href="#constantes">Constantes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#historique">Historique</a></li>
+          <li class="nav-item"><a class="nav-link" href="#saisie">Nouvelle mesure</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ÉTAPE 3 : container -->
+  <main class="container py-4">
+    <h1 class="mb-1">Fiche patient</h1>
+    <p class="lead text-body-secondary mb-4">Patient fictif : toutes les données de cette page sont inventées.</p>
+
+    <!-- ÉTAPE 3 : grille (row + colonnes) et cards -->
+    <div class="row g-4 mb-4">
+
+      <section id="identite" class="col-12 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <h2 class="card-header h5 mb-0">Identité</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Nom :</strong> Trabelsi</li>
+            <li class="list-group-item"><strong>Prénom :</strong> Yassine</li>
+            <li class="list-group-item"><strong>Âge :</strong> 54 ans</li>
+            <li class="list-group-item"><strong>N° de dossier :</strong> 2026-0042</li>
+            <li class="list-group-item"><strong>Service :</strong> Cardiologie</li>
+            <li class="list-group-item"><strong>Motif de suivi :</strong> Hypertension artérielle</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="constantes" class="col-12 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <h2 class="card-header h5 mb-0">Dernières constantes</h2>
+          <!-- ÉTAPE 6 : d-flex + badges (utilities) -->
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center">Mesure du <strong>26/11/2026 à 08:00</strong></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">Tension artérielle <span class="badge text-bg-warning">150/95 mmHg</span></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">Fréquence cardiaque <span class="badge text-bg-success">88 bpm</span></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">SpO₂ <span class="badge text-bg-success">96 %</span></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">Température <span class="badge text-bg-success">37,2 °C</span></li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <section id="historique" class="mb-4">
+      <h2 class="h4">Historique des mesures</h2>
+      <!-- ÉTAPE 4 : tableau Bootstrap -->
+      <div class="table-responsive">
+        <table class="table table-striped table-hover align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th>Date et heure</th>
+              <th>Tension (mmHg)</th>
+              <th>FC (bpm)</th>
+              <th>SpO₂ (%)</th>
+              <th>Température (°C)</th>
+              <th>Statut</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-warning">
+              <td>26/11/2026 08:00</td>
+              <td>150/95</td>
+              <td>88</td>
+              <td>96</td>
+              <td>37,2</td>
+              <td><span class="badge text-bg-warning">À surveiller</span></td>
+            </tr>
+            <tr>
+              <td>25/11/2026 20:00</td>
+              <td>138/88</td>
+              <td>82</td>
+              <td>97</td>
+              <td>36,9</td>
+              <td><span class="badge text-bg-success">Normal</span></td>
+            </tr>
+            <tr class="table-danger">
+              <td>25/11/2026 14:00</td>
+              <td>165/100</td>
+              <td>95</td>
+              <td>91</td>
+              <td>37,4</td>
+              <td><span class="badge text-bg-danger">Alerte</span></td>
+            </tr>
+            <tr class="table-warning">
+              <td>25/11/2026 08:00</td>
+              <td>145/92</td>
+              <td>86</td>
+              <td>95</td>
+              <td>37,0</td>
+              <td><span class="badge text-bg-warning">À surveiller</span></td>
+            </tr>
+            <tr>
+              <td>24/11/2026 20:00</td>
+              <td>128/82</td>
+              <td>78</td>
+              <td>98</td>
+              <td>36,8</td>
+              <td><span class="badge text-bg-success">Normal</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="saisie" class="mb-4">
+      <!-- ÉTAPE 5 : card + formulaire en grille -->
+      <div class="card shadow-sm">
+        <h2 class="card-header h5 mb-0">Nouvelle mesure</h2>
+        <div class="card-body">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="systolique" class="form-label">Tension systolique (mmHg)</label>
+              <input type="number" class="form-control" id="systolique" name="systolique" min="50" max="250">
+            </div>
+            <div class="col-md-6">
+              <label for="diastolique" class="form-label">Tension diastolique (mmHg)</label>
+              <input type="number" class="form-control" id="diastolique" name="diastolique" min="30" max="150">
+            </div>
+            <div class="col-md-4">
+              <label for="fc" class="form-label">Fréquence cardiaque (bpm)</label>
+              <input type="number" class="form-control" id="fc" name="fc" min="20" max="250">
+            </div>
+            <div class="col-md-4">
+              <label for="spo2" class="form-label">SpO₂ (%)</label>
+              <input type="number" class="form-control" id="spo2" name="spo2" min="50" max="100">
+            </div>
+            <div class="col-md-4">
+              <label for="temperature" class="form-label">Température (°C)</label>
+              <input type="number" class="form-control" id="temperature" name="temperature" min="30" max="45" step="0.1">
+            </div>
+            <div class="col-12">
+              <label for="commentaire" class="form-label">Commentaire</label>
+              <textarea class="form-control" id="commentaire" name="commentaire" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enregistrer la mesure</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-body-tertiary text-center text-body-secondary py-3">
+    <p class="mb-0">TP Bootstrap – Technologies innovantes en santé – données fictives</p>
+  </footer>
+
+  <!-- ÉTAPE 1 : JavaScript de Bootstrap (bundle avec Popper), indispensable pour le menu burger -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiche patient – TP Bootstrap</title>
+  <!-- ÉTAPE 1 : ajouter ici la balise <link> du CSS de Bootstrap (à copier depuis la documentation officielle) -->
+</head>
+<body>
+
+  <!-- ÉTAPE 2 : transformer ce bloc en navbar Bootstrap (fond sombre, menu « burger » sur mobile) -->
+  <nav>
+    <a href="#">Dossier patient</a>
+    <ul>
+      <li><a href="#identite">Identité</a></li>
+      <li><a href="#constantes">Constantes</a></li>
+      <li><a href="#historique">Historique</a></li>
+      <li><a href="#saisie">Nouvelle mesure</a></li>
+    </ul>
+  </nav>
+
+  <!-- ÉTAPE 3 : ajouter la classe « container » sur <main> -->
+  <main>
+    <h1>Fiche patient</h1>
+    <p>Patient fictif : toutes les données de cette page sont inventées.</p>
+
+    <!-- ÉTAPE 3 : ce <div> devient une ligne de grille (row), chaque <section> devient une colonne -->
+    <div>
+
+      <section id="identite">
+        <!-- ÉTAPE 3 : ce <div> devient une card -->
+        <div>
+          <h2>Identité</h2>
+          <ul>
+            <li><strong>Nom :</strong> Trabelsi</li>
+            <li><strong>Prénom :</strong> Yassine</li>
+            <li><strong>Âge :</strong> 54 ans</li>
+            <li><strong>N° de dossier :</strong> 2026-0042</li>
+            <li><strong>Service :</strong> Cardiologie</li>
+            <li><strong>Motif de suivi :</strong> Hypertension artérielle</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="constantes">
+        <div>
+          <h2>Dernières constantes</h2>
+          <ul>
+            <li>Mesure du <strong>26/11/2026 à 08:00</strong></li>
+            <li>Tension artérielle <strong>150/95 mmHg</strong></li>
+            <li>Fréquence cardiaque <strong>88 bpm</strong></li>
+            <li>SpO₂ <strong>96 %</strong></li>
+            <li>Température <strong>37,2 °C</strong></li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <section id="historique">
+      <h2>Historique des mesures</h2>
+      <!-- ÉTAPE 4 : mettre en forme ce tableau avec les classes Bootstrap -->
+      <table>
+        <thead>
+          <tr>
+            <th>Date et heure</th>
+            <th>Tension (mmHg)</th>
+            <th>FC (bpm)</th>
+            <th>SpO₂ (%)</th>
+            <th>Température (°C)</th>
+            <th>Statut</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>26/11/2026 08:00</td>
+            <td>150/95</td>
+            <td>88</td>
+            <td>96</td>
+            <td>37,2</td>
+            <td>À surveiller</td>
+          </tr>
+          <tr>
+            <td>25/11/2026 20:00</td>
+            <td>138/88</td>
+            <td>82</td>
+            <td>97</td>
+            <td>36,9</td>
+            <td>Normal</td>
+          </tr>
+          <tr>
+            <td>25/11/2026 14:00</td>
+            <td>165/100</td>
+            <td>95</td>
+            <td>91</td>
+            <td>37,4</td>
+            <td>Alerte</td>
+          </tr>
+          <tr>
+            <td>25/11/2026 08:00</td>
+            <td>145/92</td>
+            <td>86</td>
+            <td>95</td>
+            <td>37,0</td>
+            <td>À surveiller</td>
+          </tr>
+          <tr>
+            <td>24/11/2026 20:00</td>
+            <td>128/82</td>
+            <td>78</td>
+            <td>98</td>
+            <td>36,8</td>
+            <td>Normal</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="saisie">
+      <!-- ÉTAPE 5 : ce <div> devient une card, le <form> utilise la grille et les classes de formulaire -->
+      <div>
+        <h2>Nouvelle mesure</h2>
+        <form>
+          <div>
+            <label for="systolique">Tension systolique (mmHg)</label>
+            <input type="number" id="systolique" name="systolique" min="50" max="250">
+          </div>
+          <div>
+            <label for="diastolique">Tension diastolique (mmHg)</label>
+            <input type="number" id="diastolique" name="diastolique" min="30" max="150">
+          </div>
+          <div>
+            <label for="fc">Fréquence cardiaque (bpm)</label>
+            <input type="number" id="fc" name="fc" min="20" max="250">
+          </div>
+          <div>
+            <label for="spo2">SpO₂ (%)</label>
+            <input type="number" id="spo2" name="spo2" min="50" max="100">
+          </div>
+          <div>
+            <label for="temperature">Température (°C)</label>
+            <input type="number" id="temperature" name="temperature" min="30" max="45" step="0.1">
+          </div>
+          <div>
+            <label for="commentaire">Commentaire</label>
+            <textarea id="commentaire" name="commentaire" rows="3"></textarea>
+          </div>
+          <div>
+            <button type="submit">Enregistrer la mesure</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>TP Bootstrap – Technologies innovantes en santé – données fictives</p>
+  </footer>
+
+  <!-- ÉTAPE 1 : ajouter ici la balise <script> du JavaScript de Bootstrap (version « bundle »), juste avant </body> -->
+</body>
+</html>
