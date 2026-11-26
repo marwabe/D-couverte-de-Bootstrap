@@ -12,7 +12,7 @@ Vous construisez la page web d'un dossier patient : identité, dernières consta
 
 ## Objectifs
 
-À la fin du TP, vous savez :
+À la fin de ce mini-projet, vous savez :
 
 1. intégrer Bootstrap dans une page HTML via un CDN et vérifier qu'il se charge sans erreur ;
 2. construire une **navbar** responsive ;
