@@ -1,4 +1,4 @@
-# TP – Découverte de Bootstrap 
+# Mini Projet : Découverte de Bootstrap 
 
 **Public :** ingénieurs 2ᵉ année, spécialité Technologies Innovantes en Santé (TIS)
 **Durée :** 2 heures
