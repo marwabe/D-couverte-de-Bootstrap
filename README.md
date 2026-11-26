@@ -1,12 +1,12 @@
-# TP – Découverte de Bootstrap : une fiche patient
+# TP – Découverte de Bootstrap 
 
-**Public :** ingénieurs 2ᵉ année, spécialité Technologies innovantes en santé (niveau débutant)
-**Durée :** 1h30
+**Public :** ingénieurs 2ᵉ année, spécialité Technologies Innovantes en Santé (TIS)
+**Durée :** 2 heures
 **Outils :** un éditeur de code (VS Code conseillé), un navigateur (Chrome, Edge ou Firefox), une connexion Internet
 
 ## Contexte
 
-Vous construisez la page d'un **dossier patient** : identité, dernières constantes vitales, historique des mesures et formulaire de saisie d'une nouvelle mesure. Le contenu est déjà écrit dans le fichier de départ : votre travail consiste à **mettre en forme la page avec Bootstrap**, en ajoutant des classes et quelques balises, sans écrire une seule ligne de CSS.
+Vous construisez la page web d'un dossier patient : identité, dernières constantes vitales, historique des mesures et formulaire de saisie d'une nouvelle mesure. Le contenu et la structure HTML de la page sont déjà écrits dans le fichier de départ : *votre travail consiste à mettre en forme la page avec Bootstrap*, en ajoutant des classes et quelques balises, sans écrire une seule ligne de CSS.
 
 > ⚠️ Le patient (Yassine Trabelsi) et toutes les valeurs sont **fictifs**. Les statuts « Normal », « À surveiller » et « Alerte » sont illustratifs et n'ont aucune valeur médicale. En situation réelle, on ne manipule jamais de données de patients sans cadre réglementaire et sans anonymisation.
 
