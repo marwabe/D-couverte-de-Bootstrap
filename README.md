@@ -39,11 +39,9 @@ Dans ce TP, Bootstrap est intégré avec un CDN : aucune installation avec npm n
 - Dans le navigateur, **F12** ouvre les outils de développement : onglet *Console* pour les erreurs, et mode appareil mobile (**Ctrl + Maj + M**) pour tester le responsive.
 - Toutes les classes dont vous avez besoin sont dans la [documentation Bootstrap 5.3](https://getbootstrap.com/docs/5.3/).
 
----
+## Travail demandé
 
-**Travail demandé**
-
-## Étape 1 – Intégration et prise en main
+### Étape 1 – Intégration et prise en main
 
 1. Dans `index.html`, ajoutez le `<link>` du **CSS** de Bootstrap à l'endroit indiqué dans le `<head>`, et le `<script>` du **JavaScript** (version *bundle*) juste avant `</body>`. Copiez-les depuis la page [Get started with Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/), rubrique *Quick start*.
 2. Rechargez la page : la typographie doit changer.
