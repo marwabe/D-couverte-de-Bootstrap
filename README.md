@@ -171,24 +171,8 @@ Remplacez le `<h1>` et le paragraphe d'introduction de `index.html` par un bande
 
 ### Expérimenter
 
-Changez les couleurs des badges, testez le thème sombre avec `data-bs-theme="dark"` sur `<html>`, ajoutez une image… rien n'est trop fou.
-
----
-
-## Évaluation
-
-| Critère | Points |
-|---|---|
-| Bootstrap chargé sans erreur (CSS + JS, `integrity` conservé) | 3 |
-| Navbar responsive qui fonctionne | 3 |
-| Grille et cards (2 colonnes → 1 colonne sur mobile) | 4 |
-| Tableau (classes, `table-responsive`, lignes colorées) | 3 |
-| Formulaire (grille, `form-control`, labels liés aux champs) | 3 |
-| Utilities et cohérence visuelle | 2 |
-| Réponses aux questions (`reponses.md`) | 2 |
-| **Total** | **20** |
-
+Le but de ce TP est l'expérimentation. N'hésitez pas à modifier, personnaliser, tester des idées. Changez les couleurs des badges, testez le thème sombre avec `data-bs-theme="dark"` sur `<html>`, ajoutez une image… rien n'est trop fou.
 Les bonus A et B rapportent jusqu'à 2 points supplémentaires, dans la limite de 20.
 
-Expérimenter !
-Le but de ce TP est l'expérimentation. N'hésitez pas à modifier, personnaliser, tester des idées. 
+
+
