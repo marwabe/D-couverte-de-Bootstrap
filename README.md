@@ -4,6 +4,15 @@
 **Durée :** 2 heures
 **Outils :** un éditeur de code (VS Code conseillé), un navigateur (Chrome, Edge ou Firefox), une connexion Internet
 
+Dans ce TP nous allons découvrir le framework CSS Bootstrap.
+
+Bootstrap
+
+Introduction
+Bootstrap est un Framework massivement utilisé dans le monde des développeurs Web. Il date maintenant de quelques années, mais celui-ci est mis à jour régulièrement, ce qui lui permet d'être toujours à jour et toujours très intéressant. Bootstrap a été créé par Twitter, vous ne serez donc pas vraiment surpris si celui-ci ressemble « sous certains aspects » à l'interface du site Twitter.com.
+
+Bootstrap est très vaste, et très bien documenté. Le TP n'a pas pour but de vous apprendre « à utiliser Bootstrap », mais plutôt vous faire découvrir celui-ci pour que vous l'utilisiez aussi souvent que possible.
+
 ## Contexte
 
 Vous construisez la page web d'un dossier patient : identité, dernières constantes vitales, historique des mesures et formulaire de saisie d'une nouvelle mesure. Le contenu et la structure HTML de la page sont déjà écrits dans le fichier de départ : **votre travail consiste à mettre en forme la page avec Bootstrap**, en ajoutant des classes et quelques balises, sans écrire une seule ligne de CSS.
