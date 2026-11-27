@@ -104,7 +104,7 @@ Résultat attendu : deux cards côte à côte sur grand écran, empilées sur mo
 
 Documentation : [Grid](https://getbootstrap.com/docs/5.3/layout/grid/) · [Card](https://getbootstrap.com/docs/5.3/components/card/) · [List group](https://getbootstrap.com/docs/5.3/components/list-group/)
 
-### Étape 4 – Tableau (15 min)
+### Étape 4 – Tableau 
 
 **À faire :**
 
@@ -117,7 +117,7 @@ Documentation : [Grid](https://getbootstrap.com/docs/5.3/layout/grid/) · [Card]
 
 Documentation : [Tables](https://getbootstrap.com/docs/5.3/content/tables/)
 
-### Étape 5 – Formulaire (15 min)
+### Étape 5 – Formulaire 
 
 **À faire :**
 
@@ -132,7 +132,7 @@ Documentation : [Tables](https://getbootstrap.com/docs/5.3/content/tables/)
 
 Documentation : [Forms – Layout](https://getbootstrap.com/docs/5.3/forms/layout/) · [Form control](https://getbootstrap.com/docs/5.3/forms/form-control/)
 
-### Étape 6 – Utilities (10 min)
+### Étape 6 – Utilities 
 
 Les *utilities* sont de petites classes qui évitent d'écrire du CSS. À faire :
 
@@ -143,7 +143,7 @@ Les *utilities* sont de petites classes qui évitent d'écrire du CSS. À faire 
 
 Documentation : [Badges](https://getbootstrap.com/docs/5.3/components/badge/) · [Spacing](https://getbootstrap.com/docs/5.3/utilities/spacing/) · [Shadows](https://getbootstrap.com/docs/5.3/utilities/shadows/) · [Flex](https://getbootstrap.com/docs/5.3/utilities/flex/)
 
-### Étape 7 – Bilan et rendu (10 min)
+### Étape 7 – Bilan et rendu 
 
 1. Testez votre page à **3 largeurs** (mobile ~375 px, tablette ~768 px, bureau) avec le mode appareil du navigateur. Rien ne doit déborder horizontalement, sauf le tableau qui peut défiler à l'intérieur de son bloc.
 2. Répondez à la dernière question de `reponses.md` (avantages et limite de Bootstrap).
@@ -189,3 +189,6 @@ Changez les couleurs des badges, testez le thème sombre avec `data-bs-theme="da
 | **Total** | **20** |
 
 Les bonus A et B rapportent jusqu'à 2 points supplémentaires, dans la limite de 20.
+
+Expérimenter !
+Le but de ce TP est l'expérimentation. N'hésitez pas à modifier, personnaliser, tester des idées. 
