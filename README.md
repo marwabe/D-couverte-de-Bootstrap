@@ -52,7 +52,7 @@ Dans ce TP, Bootstrap est intégré avec un CDN : aucune installation avec npm n
 1. Pourquoi faut-il copier le code d'intégration depuis la documentation officielle ?
 2. À quoi servent les attributs `integrity=` et `crossorigin="anonymous"` ?
 
-## Étape 2 – Barre de navigation  
+### Étape 2 – Barre de navigation  
 
 Transformez le bloc `<nav>` en barre de navigation Bootstrap. Voici la structure à obtenir, à adapter à vos liens existants :
 
@@ -79,7 +79,7 @@ Transformez le bloc `<nav>` en barre de navigation Bootstrap. Voici la structure
 
 Documentation : [Navbar](https://getbootstrap.com/docs/5.3/components/navbar/)
 
-## Étape 3 – Grid System et cards 
+### Étape 3 – Grid System et cards 
 
 **À faire :**
 
@@ -94,7 +94,7 @@ Résultat attendu : deux cards côte à côte sur grand écran, empilées sur mo
 
 Documentation : [Grid](https://getbootstrap.com/docs/5.3/layout/grid/) · [Card](https://getbootstrap.com/docs/5.3/components/card/) · [List group](https://getbootstrap.com/docs/5.3/components/list-group/)
 
-## Étape 4 – Tableau (15 min)
+### Étape 4 – Tableau (15 min)
 
 **À faire :**
 
@@ -107,7 +107,7 @@ Documentation : [Grid](https://getbootstrap.com/docs/5.3/layout/grid/) · [Card]
 
 Documentation : [Tables](https://getbootstrap.com/docs/5.3/content/tables/)
 
-## Étape 5 – Formulaire (15 min)
+### Étape 5 – Formulaire (15 min)
 
 **À faire :**
 
@@ -122,7 +122,7 @@ Documentation : [Tables](https://getbootstrap.com/docs/5.3/content/tables/)
 
 Documentation : [Forms – Layout](https://getbootstrap.com/docs/5.3/forms/layout/) · [Form control](https://getbootstrap.com/docs/5.3/forms/form-control/)
 
-## Étape 6 – Utilities (10 min)
+### Étape 6 – Utilities (10 min)
 
 Les *utilities* sont de petites classes qui évitent d'écrire du CSS. À faire :
 
@@ -133,11 +133,11 @@ Les *utilities* sont de petites classes qui évitent d'écrire du CSS. À faire 
 
 Documentation : [Badges](https://getbootstrap.com/docs/5.3/components/badge/) · [Spacing](https://getbootstrap.com/docs/5.3/utilities/spacing/) · [Shadows](https://getbootstrap.com/docs/5.3/utilities/shadows/) · [Flex](https://getbootstrap.com/docs/5.3/utilities/flex/)
 
-## Étape 7 – Bilan et rendu (10 min)
+### Étape 7 – Bilan et rendu (10 min)
 
 1. Testez votre page à **3 largeurs** (mobile ~375 px, tablette ~768 px, bureau) avec le mode appareil du navigateur. Rien ne doit déborder horizontalement, sauf le tableau qui peut défiler à l'intérieur de son bloc.
 2. Répondez à la dernière question de `reponses.md` (avantages et limite de Bootstrap).
-3. **Rendu sur GitHub** (au choix de l'enseignant) :
+3. **Rendu sur GitHub** (au choix de l'étudiant(e)) :
    - *sans Git* : créez un dépôt personnel `tp-bootstrap-nom`, puis **Add file → Upload files** pour déposer `index.html` et `reponses.md` ;
    - *avec Git* : `git add .`, `git commit -m "TP Bootstrap"`, `git push`.
 
