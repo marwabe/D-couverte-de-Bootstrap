@@ -12,20 +12,25 @@ Vous construisez la page web d'un dossier patient : identité, dernières consta
 
 ## Objectifs
 
-À la fin de ce mini-projet, vous savez :
+À la fin de ce mini-projet, l'étudiant doit être capable de :
 
-1. intégrer Bootstrap dans une page HTML via un CDN et vérifier qu'il se charge sans erreur ;
-2. construire une **navbar** responsive ;
-3. organiser une page avec la **grille** (`container`, `row`, `col-*`) et des **cards** ;
-4. mettre en forme un **tableau** et signaler visuellement les valeurs anormales ;
-5. construire un **formulaire** propre avec les classes Bootstrap ;
-6. utiliser les **utilities** (badges, espacements, ombres, alignements).
+1. expliquer le rôle de Bootstrap dans le développement d'interfaces web ;
+2. intégrer Bootstrap dans une page HTML via un CDN et vérifier qu'il se charge sans erreur ;
+3. construire une **navbar** responsive ;
+4. organiser une page avec la **grille** (`container`, `row`, `col-*`) et des **cards** ;
+5. mettre en forme un **tableau** et signaler visuellement les valeurs anormales ;
+6. construire un **formulaire** propre avec les classes Bootstrap ;
+7. utiliser les **utilities** (badges, espacements, ombres, alignements).
 
-## Récupérer les fichiers
+## Préparation et démarrage
 
-Ouvrez le dossier `starter/` : il contient `index.html` (à compléter) et `reponses.md` (vos réponses aux questions). Pour travailler, téléchargez le dépôt (**Code → Download ZIP**) ou clonez-le, puis ouvrez le dossier `starter/` dans votre éditeur.
+Le dépôt contient directement les fichiers index.html (à compléter) et reponses.md (vos réponses aux questions). Pour travailler, téléchargez le dépôt **(Code → Download ZIP)** ou clonez-le, puis ouvrez le dossier du projet dans votre éditeur. Ouvrez index.html dans le navigateur : la page est lisible mais sans aucune mise en forme. Le but est de la transformer. Les commentaires <!-- ÉTAPE n : … --> indiquent où intervenir.
 
-Ouvrez `index.html` dans le navigateur : la page est lisible mais sans aucune mise en forme. Le but est de la transformer. Les commentaires `<!-- ÉTAPE n : … -->` indiquent où intervenir.
+**À retenir**
+
+Bootstrap est un framework front-end qui fournit des classes CSS prêtes à l'emploi et des composants JavaScript. Il permet de construire plus rapidement des interfaces cohérentes et responsives.
+
+Dans ce TP, Bootstrap est intégré avec un CDN : aucune installation avec npm n'est nécessaire.
 
 ## Astuces pour taper moins
 
@@ -36,7 +41,9 @@ Ouvrez `index.html` dans le navigateur : la page est lisible mais sans aucune mi
 
 ---
 
-## Étape 1 – Mise en place (10 min)
+**Travail demandé**
+
+## Étape 1 – Intégration et prise en main
 
 1. Dans `index.html`, ajoutez le `<link>` du **CSS** de Bootstrap à l'endroit indiqué dans le `<head>`, et le `<script>` du **JavaScript** (version *bundle*) juste avant `</body>`. Copiez-les depuis la page [Get started with Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/), rubrique *Quick start*.
 2. Rechargez la page : la typographie doit changer.
@@ -47,7 +54,7 @@ Ouvrez `index.html` dans le navigateur : la page est lisible mais sans aucune mi
 1. Pourquoi faut-il copier le code d'intégration depuis la documentation officielle ?
 2. À quoi servent les attributs `integrity=` et `crossorigin="anonymous"` ?
 
-## Étape 2 – Navbar (10 min)
+## Étape 2 – Barre de navigation  
 
 Transformez le bloc `<nav>` en barre de navigation Bootstrap. Voici la structure à obtenir, à adapter à vos liens existants :
 
@@ -70,11 +77,11 @@ Transformez le bloc `<nav>` en barre de navigation Bootstrap. Voici la structure
 </nav>
 ```
 
-**À faire :** reprenez vos 4 liens (Identité, Constantes, Historique, Nouvelle mesure) dans cette structure, puis testez en réduisant la fenêtre : le menu doit se replier derrière un bouton « burger ».
+**À faire :** reprenez vos 4 liens (Identité, Constantes, Historique, Nouvelle mesure) dans cette structure, puis testez en réduisant la fenêtre : Le bouton de menu doit fonctionner sur petit écran.
 
 Documentation : [Navbar](https://getbootstrap.com/docs/5.3/components/navbar/)
 
-## Étape 3 – Grille et cards (20 min)
+## Étape 3 – Grid System et cards 
 
 **À faire :**
 
