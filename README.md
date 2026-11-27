@@ -169,10 +169,10 @@ Créez `notes.html`, la page des **notes de suivi** du patient :
 
 Remplacez le `<h1>` et le paragraphe d'introduction de `index.html` par un bandeau d'accueil inspiré de l'exemple [Jumbotron](https://getbootstrap.com/docs/5.3/examples/jumbotron/) : fond clair (`bg-body-tertiary`), coins arrondis (`rounded-3`), grand titre (`display-5 fw-bold`) et un bouton d'appel à l'action (`btn btn-primary btn-lg`) qui renvoie vers le formulaire.
 
-### Expérimenter
+### Expérimenter !!
 
 Le but de ce TP est l'expérimentation. N'hésitez pas à modifier, personnaliser, tester des idées. Changez les couleurs des badges, testez le thème sombre avec `data-bs-theme="dark"` sur `<html>`, ajoutez une image… rien n'est trop fou.
-Les bonus A et B rapportent jusqu'à 2 points supplémentaires, dans la limite de 20.
+
 
 
 
