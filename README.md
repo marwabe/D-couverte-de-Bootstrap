@@ -79,7 +79,7 @@ Transformez le bloc `<nav>` en barre de navigation Bootstrap. Voici la structure
 
 Documentation : [Navbar](https://getbootstrap.com/docs/5.3/components/navbar/)
 
-### Étape 3 – Grid System et cards 
+### Étape 3 – Présentation du dossier patient avec un Grid System et des cards
 
 **À faire :**
 
